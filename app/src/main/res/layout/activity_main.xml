@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.spartan.kotlin.MainActivity">
+
+
+    <Button
+        android:id="@+id/evenButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EVEN BUTTON"
+        />
+
+    <Button
+        android:id="@+id/oddButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ODD BUTTON"
+        />
+
+    <Button
+        android:id="@+id/multiplyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MULTIPLY BY 2 BUTTON"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Default String"
+        />
+
+    <TextView
+        android:id="@+id/defaultValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="After Operation"/>
+
+    <TextView
+        android:id="@+id/updatedValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
